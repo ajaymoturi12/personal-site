@@ -25,6 +25,14 @@ const nextConfig = {
       permanent: !!permanent,
     }));
   },
+  async rewrites() {
+    return [
+      {
+        source: '/resume',
+        destination: '/Moturi_Ajay_Resume.pdf'
+      }
+    ]
+  },
   headers() {
     return [
       {

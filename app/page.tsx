@@ -301,6 +301,18 @@ export default function Page() {
             <p className="h-7 ml-2">let's chat</p>
           </a>
         </li>
+        <li>
+          <Link
+            href="/resume"
+            className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+            rel="noopener noreferrer"
+            target="_blank">
+            <ArrowIcon />
+            <p className="h-7 ml-2">resume</p>
+          </Link>
+        </li>
+      </ul>
+      <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-600 dark:text-neutral-300">
       </ul>
     </section>
   );
