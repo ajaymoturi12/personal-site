@@ -32,7 +32,7 @@ export default function WorkPage() {
           organization and product development as we set out to build the de facto product
           for career development, networking, and building impactful professional communities.
         </p>
-        <h2 className="font-medium text-lg mb-1 tracking-tighter"> Some things I've at Key:</h2>
+        <h2 className="font-medium text-lg mb-1 tracking-tighter"> Some things I've done at Key:</h2>
         <ul>
           <li>
             Grew the company's product user base from 0 to 6.5k
