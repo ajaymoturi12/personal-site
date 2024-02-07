@@ -3,11 +3,11 @@ import Link from 'next/link';
 import Image from 'next/image'
 
 export const metadata: Metadata = {
-  title: 'Work',
-  description: 'A summary of my work and contributions.',
+  title: 'Experience',
+  description: 'A summary of my work experience and contributions.',
 };
 
-export default function WorkPage() {
+export default function ExperiencePage() {
   console.log()
   return (
     <section>
@@ -17,7 +17,7 @@ export default function WorkPage() {
           I'm still early in my career, but striving to build great products
           that people love and bring something positive into the world. My goal
           in life is to stay curious and learn a lot along the way. Here's a
-          summary of my work so far.
+          summary of my professional work experiences so far.
         </p>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">Key</h2>
@@ -107,7 +107,7 @@ export default function WorkPage() {
                 />
                 <div className="flex flex-col">
                   <p className="font-medium text-neutral-900 dark:text-neutral-100">
-                  Cosmos Microservice Platform
+                    Cosmos Microservice Platform
                   </p>
                 </div>
               </div>

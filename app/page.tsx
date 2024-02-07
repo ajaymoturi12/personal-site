@@ -117,7 +117,7 @@ export default function Page() {
       </h1>
       <p className="prose prose-neutral dark:prose-invert">
         {`I'm a student, software engineer, traveler, and catalyst. I'm currently `}
-        <Link href="/work">working</Link>
+        <Link href="/experience">working</Link>
         {` on a couple side projects as I finish my degree at `}
         <span className="not-prose">
           <Badge href="https://www.gatech.edu">
